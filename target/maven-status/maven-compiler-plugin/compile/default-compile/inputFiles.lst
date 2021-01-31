@@ -1,4 +1,6 @@
 C:\Users\adrian\Documents\workspace-eclipse\encurtador\src\main\java\dao\Dynamo.java
+C:\Users\adrian\Documents\workspace-eclipse\encurtador\src\main\java\utils\JsonConverter.java
 C:\Users\adrian\Documents\workspace-eclipse\encurtador\src\main\java\model\Url.java
 C:\Users\adrian\Documents\workspace-eclipse\encurtador\src\main\java\utils\ConstantUtils.java
-C:\Users\adrian\Documents\workspace-eclipse\encurtador\src\main\java\controller\buscarUrl.java
+C:\Users\adrian\Documents\workspace-eclipse\encurtador\src\main\java\controller\CriarUrl.java
+C:\Users\adrian\Documents\workspace-eclipse\encurtador\src\main\java\controller\BuscarUrl.java

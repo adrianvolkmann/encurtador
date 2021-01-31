@@ -16,7 +16,7 @@ import com.amazonaws.services.lambda.runtime.RequestStreamHandler;
 import dao.Dynamo;
 import utils.ConstantUtils;
 
-public class buscarUrl implements RequestStreamHandler {
+public class BuscarUrl implements RequestStreamHandler {
 
 	public void handleRequest(InputStream input, OutputStream output, Context context) throws IOException {
 
@@ -36,7 +36,7 @@ public class buscarUrl implements RequestStreamHandler {
 		//verifica se url tem http, necessario para redirecionar corretamente
 		if (!urlOriginal.isEmpty()) {
 			String temp = urlOriginal.toLowerCase();
-			if (!temp.contains("http") || !temp.contains("https")) {
+			if (!temp.contains("http") && !temp.contains("https")) {
 				urlOriginal = "http://" + urlOriginal;
 			}
 		}
